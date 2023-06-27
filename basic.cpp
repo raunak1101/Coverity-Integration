@@ -11,7 +11,11 @@ void one(){
     float x2 = 0.0;
     float x3 = 0.0;
     float x4 = 0.0;
-    
+
+
+    if(11==13){
+	    cout<<"Its true"<<endl;
+    }
 	//this section gets user input and displays message
     cout << "Enter the coefficients a , b , c for equation in the form ax^ + bx + c = 0:\n";
     cout << "Enter value for a:\n";
