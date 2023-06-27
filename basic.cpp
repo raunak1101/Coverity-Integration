@@ -16,6 +16,13 @@ void one(){
     if(11==13){
 	    cout<<"Its true"<<endl;
     }
+    int a11;
+    cin>>a11;
+    int b11;	
+    cin>>b11;
+    if(b11>a11){
+	    if(a11>b11) cout<<"hello"<<endl;
+    }
 	//this section gets user input and displays message
     cout << "Enter the coefficients a , b , c for equation in the form ax^ + bx + c = 0:\n";
     cout << "Enter value for a:\n";
